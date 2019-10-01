@@ -8,7 +8,6 @@ class Program
 {
     static void Main()
     {
-        int counter = 0;
         Console.WriteLine("Напишете две числа: ");
         int number1 = int.Parse(Console.ReadLine());
         int number2 = int.Parse(Console.ReadLine());
