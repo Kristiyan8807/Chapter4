@@ -8,13 +8,14 @@ class Program
 {
     static void Main()
     {
+        int counter = 0;
         Console.WriteLine("Напишете две числа: ");
         int number1 = int.Parse(Console.ReadLine());
         int number2 = int.Parse(Console.ReadLine());
         for (int i = number1; i <= number2; i++)
         {
             if (i % 5 == 0)
-                Console.WriteLine(i);
+                Console.WriteLine("Числата между тях с остатък 0 са: " + i);
         }
 
     }
