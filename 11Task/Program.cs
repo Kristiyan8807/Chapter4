@@ -7,14 +7,6 @@ class Program
 {
     static void Main()
     {
-        //Console.WriteLine(0); //prev1
-        //Console.WriteLine(1); //prev2
-        //Console.WriteLine(1); //prev1+prev2
-        //Console.WriteLine(2); //prev1+prev2
-        //Console.WriteLine(3);
-        //Console.WriteLine(5);
-        //Console.WriteLine(8);
-
         ulong prev1 = 0;
         ulong prev2 = 1;
         ulong current = 0;
