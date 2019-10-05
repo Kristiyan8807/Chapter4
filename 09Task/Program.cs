@@ -10,7 +10,6 @@ class Program
         int sum = 0;
         Console.Write("Enter numbers count: ");
         int number = int.Parse(Console.ReadLine());
-
         for (int i = 0; i < number; i++)
         {
             Console.Write("Enter number {0}: ", i + 1);
